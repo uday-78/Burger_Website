@@ -737,6 +737,10 @@ section{
   margin-left: auto;
 }
 
+.mt-3{
+  margin-top: 0.75rem;
+}
+
 .block{
   display: block;
 }
@@ -999,6 +1003,14 @@ section{
   padding: 1.4rem;
 }
 
+.p-6{
+  padding: 1.5rem;
+}
+
+.p-0{
+  padding: 0px;
+}
+
 .px-12{
   padding-left: 3rem;
   padding-right: 3rem;
@@ -1052,6 +1064,11 @@ section{
 .px-5{
   padding-left: 1.25rem;
   padding-right: 1.25rem;
+}
+
+.px-7{
+  padding-left: 1.75rem;
+  padding-right: 1.75rem;
 }
 
 .pb-5{
@@ -1376,6 +1393,11 @@ section{
     padding: 0px;
   }
 
+  .md\:px-4{
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+
   .md\:pt-0{
     padding-top: 0px;
   }
@@ -1440,5 +1462,10 @@ section{
 
   .lg\:p-0{
     padding: 0px;
+  }
+
+  .lg\:px-4{
+    padding-left: 1rem;
+    padding-right: 1rem;
   }
 }
